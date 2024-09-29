@@ -1,0 +1,62 @@
+.homekit-item {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .homekit-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  
+  
+  .homekit-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #4cb5a3;
+  }
+  
+  .homekit-item p {
+    font-size: 21px;
+    font-family: sans-serif;
+  }
+  .header-section {
+    background-color: #b4dde3;
+    padding: 32px 0px;
+    display: flex;
+
+  }
+
+  .header-section h1 {
+    text-align: left;
+    font-family: sans-serif;
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    margin-left: 100px;
+
+  }
+  
+  .header-section nav {
+    margin-top: 0.5rem;
+margin-left: 700px;
+  }
+  
+  .header-section nav a {
+    text-decoration: none;
+    color: #666;
+    margin-right: 0.5rem;
+  }
+  
+  .header-section nav a:hover {
+    text-decoration: underline;
+  }

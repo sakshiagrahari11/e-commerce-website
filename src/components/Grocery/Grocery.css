@@ -1,0 +1,96 @@
+.grocery {
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    background-color: #f9f9f9;
+  }
+  
+  .grocery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #00a19d;
+  }
+  
+  .grocery p {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .grocery:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .grocery {
+      width: 150px;
+    }
+  
+    .grocery img {
+      height: 150px;
+    }
+  
+    .grocery p {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .grocery {
+      width: 100px;
+    }
+  
+    .grocery img {
+      height: 100px;
+    }
+  
+    .grocery p {
+      font-size: 14px;
+    }
+  }
+  .header-section {
+    background-color: #b4dde3;
+    padding: 32px 0px;
+    display: flex;
+
+  }
+
+  .header-section h1 {
+    text-align: left;
+    font-family: sans-serif;
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    margin-left: 100px;
+
+  }
+  
+  .header-section nav {
+    margin-top: 0.5rem;
+margin-left: 700px;
+  }
+  
+  .header-section nav a {
+    text-decoration: none;
+    color: #666;
+    margin-right: 0.5rem;
+  }
+  
+  .header-section nav a:hover {
+    text-decoration: underline;
+  }
+  

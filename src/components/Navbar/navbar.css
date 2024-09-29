@@ -1,0 +1,45 @@
+.nav-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; /* Center items vertically */
+  background-color: #49a6a2;
+  margin-bottom: 1px;
+  padding: 10px 0; /* Combined padding for top and bottom */
+  gap: 50px; /* Adjusted gap for better spacing */
+}
+
+.menuBarDiv {
+  margin-left: 40px;
+}
+
+.nav-items button {
+  background-color: transparent;
+  font-size: 18px;
+  font-family: 'Arial', sans-serif; /* Specified font for better compatibility */
+  color: #fff;
+  border: none; /* Removed border for a cleaner look */
+  padding: 5px 10px; /* Added horizontal padding for better clickability */
+  cursor: pointer; /* Indicate that the button is clickable */
+  transition: all 0.3s ease; /* Smooth transition for all properties */
+  position: relative;
+}
+
+.nav-items button:hover {
+  border-bottom: 2px solid #fff;
+  top: -2px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-items {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      align-items: flex-start; /* Align items to the left */
+      gap: 10px; /* Reduced gap for smaller screens */
+  }
+
+  .nav-items button {
+      width: 100%; /* Make buttons full-width */
+      text-align: left; /* Align text to the left */
+  }
+}
+

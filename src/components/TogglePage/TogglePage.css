@@ -1,0 +1,162 @@
+/* Container for the whole authentication modal */
+.auth-container {
+  width: 400px;
+  margin: 50px 50px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+margin-left: 550px;
+}
+
+/* Toggle container to align buttons */
+.auth-toggle {
+  display: flex;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  overflow: visible;
+}
+
+/* Common styles for both buttons */
+.auth-toggle .toggle-btn {
+  flex: 1;
+  display: flex;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease;
+  background-color: #f0f0f0; /* Inactive button background */
+  color: #333; /* Inactive button text */
+}
+
+/* Specific styles for the login button */
+.auth-toggle .login-btn {
+  top: 20%;
+
+}
+
+/* Specific styles for the register button */
+.auth-toggle .register-btn {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: 60px;
+  top: 20%;
+
+}
+
+/* Active button state */
+.auth-toggle .toggle-btn.active {
+  background-color: #009688; /* Active button background */
+  color: white; /* Active button text */
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1); /* Add inner shadow to active button */
+}
+
+/* Hover effect for buttons */
+.auth-toggle .toggle-btn:hover {
+  background-color: #e0e0e0; /* Light grey on hover */
+}
+
+/* Auth form styles */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form h2 {
+  text-align: center;
+  color: #009688;
+  margin-bottom: 20px;
+}
+
+.auth-form input {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.auth-form .forgot-password {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.auth-form .forgot-password a {
+  color: #009688;
+  text-decoration: none;
+}
+
+.auth-form button {
+  padding: 12px;
+  background-color: #009688;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 0px;
+}
+
+.auth-form button:hover {
+  background-color: #00796b;
+}
+
+/* Register form-specific styles */
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.input-container .country-code {
+  padding: 12px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.input-container input {
+  flex: 1;
+  border-radius: 0 5px 5px 0;
+}
+
+.recaptcha-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.recaptcha-container input {
+  margin-right: 10px;
+}
+
+.action-buttons {
+  display: flex;
+}
+
+.action-buttons .cancel-button {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.action-buttons .otp-button {
+  background-color: #009688;
+  margin-left: 100px;
+}
+
+.action-buttons button {
+  flex: 1;
+  padding: 12px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.action-buttons button:hover {
+  opacity: 0.9;
+}

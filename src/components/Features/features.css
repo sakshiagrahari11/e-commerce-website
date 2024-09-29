@@ -1,0 +1,69 @@
+/* Features.css */
+.features-container {
+  margin-top: 80px;
+  background-color: #49A6A2; /* Teal background */
+  color: white;
+  padding: 20px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four columns for the features */
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #49A6A2; /* Slightly darker teal */
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.feature-item:hover {
+  background-color: #49A6A2;
+}
+
+.feature-icon {
+  font-size: 2.5rem; /* Larger size for the icon */
+  margin-right: 1rem; /* Space between icon and text */
+}
+
+.feature-text {
+  text-align: left;
+}
+
+.feature-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.feature-description {
+  font-size: 0.875rem;
+  color: #e6fffa; /* Lighter text color */
+}
+
+.feature-link {
+  text-decoration: none; /* Remove underline from link */
+  color: white; /* Link color */
+  font-weight: bold; /* Bold text */
+  
+}
+
+/* Responsive: Stack features on smaller screens */
+@media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr); /* Two columns for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .features-grid {
+    grid-template-columns: 1fr; /* Single column for very small screens */
+  }
+}

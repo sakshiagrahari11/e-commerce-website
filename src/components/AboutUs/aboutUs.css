@@ -1,0 +1,33 @@
+.container {
+  margin: 24px 0px;
+  padding: 48px 16px;
+  background-color: #fff;
+  color: black;
+  display: block;
+  align-content: center;
+}
+
+.title h4 {
+  font: inherit;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+.text-justify {
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  margin-left: 100px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 100px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  font: inherit;
+}

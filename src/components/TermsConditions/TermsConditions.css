@@ -1,0 +1,84 @@
+.container {
+    margin: 24px 0px;
+    padding: 48px 16px;
+    background-color: #fff;
+    color: black;
+    display: block;
+    align-content: center;
+}
+
+.title h4{
+    font: inherit;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.text-center {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font: inherit;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 100px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font: inherit;
+}
+
+.text-justify {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    margin-left: 100px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 100px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font: inherit;
+
+}
+
+.header-section {
+    background-color: #b4dde3;
+    padding: 32px 0px;
+    display: flex;
+
+  }
+
+  .header-section h1 {
+    text-align: left;
+    font-family: sans-serif;
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    margin-left: 100px;
+
+  }
+  
+  .header-section nav {
+    margin-top: 0.5rem;
+margin-left: 700px;
+  }
+  
+  .header-section nav a {
+    text-decoration: none;
+    color: #666;
+    margin-right: 0.5rem;
+  }
+  
+  .header-section nav a:hover {
+    text-decoration: underline;
+  }

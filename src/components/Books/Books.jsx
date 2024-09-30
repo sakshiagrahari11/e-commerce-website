@@ -9,10 +9,10 @@ export default function Books(){
 
     const get_categories = async () => {
         try {
-            const res = await axios.get(API);
+            const res = await axios.post(API);
             console.log(res.data.data, "data");
             setData(res.data.data[6].children);
-            console.log(res.data.data[6]);
+            console.log(res.data.data[6].children);
 
         }
         catch (error) {
